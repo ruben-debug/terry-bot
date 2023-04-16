@@ -1,0 +1,23 @@
+{
+	"name": "discord-bot-template",
+	"main": "src/index.js",
+	"engines": {
+		"node": "16.x"
+	},
+	"scripts": {
+		"start": "node .",
+		"dev": "nodemon --exec \"clear; npm run start\""
+	},
+	"dependencies": {
+		"eris": "^0.17.1",
+		"fluent-ffmpeg": "^2.1.2",
+		"mongodb": "^4.6.0",
+		"node-fetch": "^2.6.8",
+		"queue": "^6.0.2",
+		"tweetnacl": "^1.0.3",
+		"yt-dlp-wrap": "^2.3.11"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.16"
+	}
+}
